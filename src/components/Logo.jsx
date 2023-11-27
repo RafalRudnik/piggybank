@@ -1,6 +1,6 @@
 function Logo() {
   return (
-    <div className="flex items-center gap-2">
+    <div className="order-first flex items-center gap-2">
       <div className="w-[50px] text-4xl text-indigo-600">
         {/* <img src="../src/img/Logo.png" alt="logo"></img> */}
         <i className="ti ti-pig-money"></i>
