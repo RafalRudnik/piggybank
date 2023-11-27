@@ -85,7 +85,7 @@ function LogOut() {
       transition={{ duration: 0.5, delay: 0.3 }}
     >
       <div className="h-[60px] w-[50px] overflow-hidden rounded-full">
-        <img src="../src/img/user.jpeg" className=""></img>
+        <img src="./img/user.jpeg" className=""></img>
       </div>
       <p className="text-sm">John Doe</p>
       <Button type="small" onClick={() => dispatch(logout())}>
